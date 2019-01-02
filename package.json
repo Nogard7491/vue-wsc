@@ -1,0 +1,48 @@
+{
+  "name": "@nogard7491/vue-wsc",
+  "version": "1.0.0",
+  "keywords": [
+    "vue-wsc",
+    "wsc",
+    "ws",
+    "vue",
+    "websocket",
+    "socket",
+    "realtime",
+    "connection",
+    "browser"
+  ],
+  "description": "Simple to use and blazing fast websocket client for Vue.js.",
+  "main": "./dist/vue-wsc-1.0.0.min.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.4",
+    "clean-webpack-plugin": "^1.0.0",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "vue": "^2.5.21",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "@nogard7491/wsc": "^2.0.4"
+  },
+  "scripts": {
+    "build": "webpack --mode=production"
+  },
+  "author": "Nogard7491 <nogard7491@gmail.com> (https://nogard.ru)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nogard7491/vue-wsc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nogard7491/vue-wsc/issues"
+  },
+  "homepage": "https://github.com/Nogard7491/vue-wsc#readme"
+}
